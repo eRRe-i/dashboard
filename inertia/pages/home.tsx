@@ -6,7 +6,9 @@ export default function Home(props: { version: number }) {
       <Head title="Homepage" />
 
       <div className="container">
-        <div className="title">AdonisJS {props.version} x Inertia x React</div>
+        <div className="text-indigo-900 text-right underline">
+          AdonisJS {props.version} x Inertia x React
+        </div>
 
         <span>
           Learn more about AdonisJS and Inertia.js by visiting the{' '}
